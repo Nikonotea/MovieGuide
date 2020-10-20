@@ -16,4 +16,5 @@
 - open phpmyadmin (or another app) with Apache and MySQL running
 - click on the `import` tab
 - choose the `movieguide.sql` file from your cloned repository folder and click on the `go` button (wait until db creating is done)
-- now you can open Drupal site on your local web server (log: admin, pass: admin)
+- `cd` into cloned repository folder and execute `drush cim`, then type `yes`
+- Drupal site - installed, credentials for administration  on your local web server (login: `admin`, password: `admin`)
