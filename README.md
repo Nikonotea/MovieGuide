@@ -7,6 +7,7 @@
 - PHP 7.3 or higher
 - Apache 2.4.7 or higher
 - Supported databases: MySQL 5.5.3 or higher
+- Drush
 
 ## How to install
 - fork your own copy of repository to your account
@@ -16,4 +17,5 @@
 - open phpmyadmin (or another app) with Apache and MySQL running
 - click on the `import` tab
 - choose the `movieguide.sql` file from your cloned repository folder and click on the `go` button (wait until db creating is done)
+- `cd` into cloned repository folder and execute drush cim, then type yes
 - now you can open Drupal site on your local web server (log: admin, pass: admin)
