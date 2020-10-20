@@ -1,0 +1,12 @@
+uuid: 193b6243-9b98-4ec0-b09f-f603c55c97ef
+langcode: en
+status: true
+dependencies: {  }
+id: moderator
+label: Moderator
+weight: -9
+is_admin: null
+permissions:
+  - 'access comments'
+  - 'administer comments'
+  - 'create page content'
