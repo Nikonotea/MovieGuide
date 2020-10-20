@@ -18,4 +18,4 @@
 - click on the `import` tab
 - choose the `movieguide.sql` file from your cloned repository folder and click on the `go` button (wait until db creating is done)
 - `cd` into cloned repository folder and execute `drush cim`, then type `yes`
-- now you can open Drupal site on your local web server (login: admin, password: admin)
+- Drupal site - installed, credentials for administration  on your local web server (login: admin, password: admin)
