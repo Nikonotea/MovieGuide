@@ -14,6 +14,7 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  fancy_file_delete: 0
   field: 0
   field_ui: 0
   file: 0
@@ -40,6 +41,7 @@ module:
   tour: 0
   update: 0
   user: 0
+  views_bulk_operations: 0
   views_ui: 0
   views: 10
   standard: 1000

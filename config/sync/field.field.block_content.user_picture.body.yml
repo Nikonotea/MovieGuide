@@ -1,18 +1,16 @@
-uuid: ddafe6dd-a348-4dfc-8958-5fc8f7a7fb62
+uuid: 0f146fff-4d74-4931-9ae2-739bcbb8d742
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.basic
+    - block_content.type.user_picture
     - field.storage.block_content.body
   module:
     - text
-_core:
-  default_config_hash: foetbaMhlB6uLc2bn-PESvaPkbuDWj0MEjpQVwQiP-o
-id: block_content.basic.body
+id: block_content.user_picture.body
 field_name: body
 entity_type: block_content
-bundle: basic
+bundle: user_picture
 label: Body
 description: ''
 required: false

@@ -1,0 +1,35 @@
+uuid: b58efd64-ce61-41ea-906f-d0817479a1a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.user_picture
+    - field.field.block_content.user_picture.body
+    - field.field.block_content.user_picture.field_user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+id: block_content.user_picture.default
+targetEntityType: block_content
+bundle: user_picture
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 0
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_user_picture:
+    weight: 1
+    label: above
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

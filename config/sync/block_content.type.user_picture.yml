@@ -1,0 +1,8 @@
+uuid: 4c29d04e-c8dd-4bdf-b919-da7e196e0494
+langcode: en
+status: true
+dependencies: {  }
+id: user_picture
+label: 'User picture'
+revision: 0
+description: ''

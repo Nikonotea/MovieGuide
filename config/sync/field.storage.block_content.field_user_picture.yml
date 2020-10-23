@@ -1,0 +1,30 @@
+uuid: 5796ec8b-1405-4854-943f-9ca473cabc59
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - file
+    - image
+id: block_content.field_user_picture
+field_name: field_user_picture
+entity_type: block_content
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: 860253d0-50cf-4b6e-9263-a8b15b9f3506
+    alt: 'user picture'
+    title: ''
+    width: 409
+    height: 512
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

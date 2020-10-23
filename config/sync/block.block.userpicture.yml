@@ -1,0 +1,25 @@
+uuid: b9cbffb7-01b0-4247-a00e-f041c5be1c49
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:user_picture:9e367549-b5ac-4d1c-a02a-4dea057547e4'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: userpicture
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:9e367549-b5ac-4d1c-a02a-4dea057547e4'
+settings:
+  id: 'block_content:9e367549-b5ac-4d1c-a02a-4dea057547e4'
+  label: 'User picture'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
